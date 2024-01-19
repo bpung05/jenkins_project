@@ -1,22 +1,25 @@
-# Project Title
+# CI/CD with Jenkins and Docker
 
-A brief description of what this project does and who it's for.
+This project is a basic demonstration of how Jenkins can automate the workflow through Docker integration.
 
-## Description
+## Project Workflow
 
-An in-depth paragraph about your project and overview of use.
+<img width="803" alt="Screenshot 2024-01-19 at 5 19 06 PM" src="https://github.com/bpung05/jenkins_project/assets/71967190/16f678c1-2368-429c-8eae-fa818dee1c78">
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing the program.
-* ex. Windows 10, Python 3.8, etc.
+* IDE of your choice that works with Spring Boot/Maven
+* Git, Github, Jenkins
 
-### Installing
+### Installation Guide (Windows)
 
-* How/where to download your program.
-* Any modifications needed to be made to files/folders.
+* Placeholder
+
+### Installation Guide (Mac)
+
+* Placeholder
 
 ### Executing program
 
