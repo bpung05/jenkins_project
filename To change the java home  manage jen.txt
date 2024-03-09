@@ -1,0 +1,7 @@
+Use bat if on windows, sh if on mac
+To change the java home : manage jenkins->system->global variables-> set java home
+-Check the dockerfile in the mvn procject to give it your jar endpoint
+in the pom add devops_proj. Make sure this matches your dockerfile
+-you need to add docker plugin to your plugins
+-make sure you have the latest jav a file installed
+-Add the directory to the docker build step.
