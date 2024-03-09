@@ -33,6 +33,11 @@ This project is a basic demonstration of how Jenkins can automate the workflow t
 ## Configure Jenkins for Docker Support
 * Reference - https://stackoverflow.com/questions/40043004/docker-command-not-found-mac-mini-only-happens-in-jenkins-shell-step-but-wo/58688536#58688536
 
+## Jenkins Configuration
+* Dashboard > Manage Jenkins > Tools
+* Maven Installation - Name: maven_3_9_6, Install Automatically, Version: 3.9.6
+* Docker Installation - Name: docker, Install Automatically, Version: latest
+
 ## Executing program
 
 * How to run the program.
