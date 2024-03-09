@@ -4,9 +4,10 @@ pipeline {
         maven 'maven_3_9_6'
     }
     stages {
-        stage("MVN Build") {
+        stage("MVN Test") {
             steps{
                 checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/bpung05/jenkins_project']])
+                bat "mvn -version"
                 bat 'mvn clean install'
             
             }
@@ -32,5 +33,12 @@ pipeline {
                 }
             }
         }
+        
     }
+    post{
+            always{
+                cleanWs()
+            }
+        }
+    
 }
