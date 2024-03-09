@@ -8,20 +8,32 @@ This project is a basic demonstration of how Jenkins can automate the workflow t
 
 ## Getting Started
 
-### Dependencies
+## Dependencies
 
 * IDE of your choice that works with Spring Boot/Maven
-* Git, Github, Jenkins
+* Git, Github, Jenkins, Docker
 
-### Installation Guide (Windows)
-
-* Placeholder
-
-### Installation Guide (Mac)
+## Installation Guide (Windows)
 
 * Placeholder
 
-### Executing program
+## Installation Guide (Mac)
+
+## Initial Preparation
+* Install Homebrew - https://brew.sh/
+* brew update
+* brew upgrade
+
+## Jenkins
+* brew install jenkins
+
+## Docker
+* brew install --cask docker
+
+## Configure Jenkins for Docker Support
+* Reference - https://stackoverflow.com/questions/40043004/docker-command-not-found-mac-mini-only-happens-in-jenkins-shell-step-but-wo/58688536#58688536
+
+## Executing program
 
 * How to run the program.
 * Step-by-step bullets.
